@@ -6,6 +6,8 @@ Free, open source app for macOS. ⌘Q quits an app only when held for a second. 
 
 Apple silicon, macOS 13 or later. Interface in English, Ukrainian and Russian. Signed with a Developer ID and notarized by Apple.
 
+![HoldQ in use: Command-Q held over QuickTime Player, which plays A Trip to the Moon by Georges Méliès (1902) at 6:15 of 12:46; the HoldQ sign with its ring half full, dark appearance](docs/scene.webp)
+
 ## Install
 
 Download `HoldQ.dmg` from [Releases](https://github.com/geragarazagh/holdq/releases/latest), open it and drag `HoldQ.app` to Applications. Later versions arrive through Check for Updates.
