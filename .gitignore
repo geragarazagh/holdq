@@ -1,0 +1,12 @@
+.DS_Store
+HoldQ.app
+vendor/Sparkle.framework
+*.dmg
+.release
+appcast.xml
+test/id_vm
+test/id_vm.pub
+test/keys
+test/click
+test/securefield
+test/
