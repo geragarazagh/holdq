@@ -78,7 +78,7 @@ Installed with Homebrew, `brew uninstall --zap holdq` quits it and removes the a
 
 ### Details
 
-- Version: 0.1.
+- Version: 0.2.
 - Bundle ID: `com.geragaraza.holdq`.
 - Download: `HoldQ.dmg`, 1.5 MB.
 - Requires: Apple silicon, macOS 13 or later.

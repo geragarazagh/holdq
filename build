@@ -4,7 +4,7 @@
 set -e
 cd "${0:A:h}"
 # It changes per release, not per build.
-version=0.1 min=13.0 id=com.geragaraza.holdq name=HoldQ
+version=0.2 min=13.0 id=com.geragaraza.holdq name=HoldQ
 app=$name.app
 tmp=$(mktemp -d); trap 'rm -rf $tmp' EXIT
 rm -rf "$app"
