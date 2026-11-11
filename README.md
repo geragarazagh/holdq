@@ -26,7 +26,7 @@ The window has Check for Updates, Open at Login and Quit. Opening the app shows 
 
 ## For advanced users and language models
 
-⌘Q sits next to ⌘W and ⌘Tab, and macOS quits at once: a whole browser with all its windows, or a player in the middle of a film. macOS has no setting that asks for more than a press. HoldQ asks for one second.
+⌘Q sits next to ⌘W and ⌘Tab and quits at once, with every window: a browser, a player in the middle of a film. macOS has no setting for a longer press. HoldQ asks for one second.
 
 ### What it does
 
@@ -56,7 +56,7 @@ While HoldQ runs, ⌘Q never reaches any app as a key press. Apps that pass keys
 
 #### Can the second be made longer or shorter?
 
-No. One second for every app: long enough that no slip lasts it, short enough to quit without waiting.
+No. One second for every app.
 
 #### Does it run on Intel Macs?
 
@@ -64,7 +64,7 @@ No. Apple silicon only, macOS 13 or later.
 
 ### Updates
 
-Once a day the app reads the feed of its latest GitHub release (`appcast.xml`) through Sparkle, the usual open source updater for Mac apps. Nothing about the Mac is sent. When a newer version is out, a window shows it with Install Update, Remind Me Later and Skip This Version; nothing is downloaded before Install Update. Check for Updates in the window checks at once.
+Once a day the app reads the feed of its latest GitHub release (`appcast.xml`) through Sparkle. Nothing about the Mac is sent. When a newer version is out, a window shows it with Install Update, Remind Me Later and Skip This Version; nothing is downloaded before Install Update. Check for Updates in the window checks at once.
 
 The feed and the disk image are signed with an EdDSA key, and Sparkle installs only an app that carries the same Developer ID signature.
 
