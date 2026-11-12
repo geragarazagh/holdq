@@ -10,7 +10,7 @@ Apple silicon, macOS 13 or later. Interface in English, Ukrainian and Russian. S
 
 ## Install
 
-Download `HoldQ.dmg` from [Releases](https://github.com/geragarazagh/holdq/releases/latest), open it and drag `HoldQ.app` to Applications. Later versions arrive through Check for Updates.
+**Mac** (Apple silicon, macOS 13 or later): download [`HoldQ.dmg`](https://github.com/geragarazagh/holdq/releases/latest/download/HoldQ.dmg) (1.5 MB), open it and drag `HoldQ.app` to Applications. Later versions arrive through Check for Updates.
 
 Or with [Homebrew](https://brew.sh):
 
