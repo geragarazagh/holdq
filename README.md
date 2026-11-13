@@ -74,9 +74,17 @@ The feed and the disk image are signed with an EdDSA key, and Sparkle installs o
 
 It stores only whether it has been opened before and the time of the last update check, in the defaults of `com.geragaraza.holdq`. Open at Login is a login item the app registers itself (`SMAppService`) and turns off from the same window.
 
-To remove HoldQ: Quit in its window, move `HoldQ.app` to the Trash, and to clear its settings run `defaults delete com.geragaraza.holdq`.
+To remove HoldQ: Quit in its window, move `HoldQ.app` to the Trash and clear its settings with this command:
 
-Installed with Homebrew, `brew uninstall --zap holdq` quits it and removes the app and its settings.
+```sh
+defaults delete com.geragaraza.holdq
+```
+
+Installed with Homebrew, this command quits it and removes the app and its settings:
+
+```sh
+brew uninstall --zap holdq
+```
 
 ### Details
 

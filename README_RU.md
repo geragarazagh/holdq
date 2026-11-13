@@ -74,9 +74,17 @@ brew install geragarazagh/tap/holdq
 
 Он хранит только то, открывали ли его раньше, и время последней проверки обновлений, в defaults `com.geragaraza.holdq`. Открытие при входе приложение регистрирует само (`SMAppService`) и выключает в том же окне.
 
-Чтобы удалить HoldQ: «Завершить» в его окне, `HoldQ.app` в Корзину, а чтобы стереть и настройки, команда `defaults delete com.geragaraza.holdq`.
+Чтобы удалить HoldQ: «Завершить» в его окне, `HoldQ.app` в Корзину и стереть настройки командой:
 
-Если ставили через Homebrew, `brew uninstall --zap holdq` закрывает его и удаляет приложение вместе с настройками.
+```sh
+defaults delete com.geragaraza.holdq
+```
+
+Если ставили через Homebrew, эта команда закрывает его и удаляет приложение вместе с настройками:
+
+```sh
+brew uninstall --zap holdq
+```
 
 ### Подробности
 
