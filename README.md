@@ -1,12 +1,10 @@
-English · [Українська](README_UA.md) · [Русский](README_RU.md)
-
 <picture><source media="(prefers-color-scheme: dark)" srcset="docs/icon-dark.png"><img src="docs/icon.png" width="128" alt="HoldQ icon"></picture>
 
 # HoldQ: hold ⌘Q to quit, for Mac
 
 Free, open source app for macOS. ⌘Q quits an app only when held for a second. A short press quits nothing, so a slip of the finger on the way to ⌘W or ⌘Tab closes nothing.
 
-Apple silicon, macOS 13 or later. Interface in English, Ukrainian and Russian. Signed with a Developer ID and notarized by Apple.
+Apple silicon, macOS 13 or later. Signed with a Developer ID and notarized by Apple.
 
 ![HoldQ in use: Command-Q held over QuickTime Player, which plays A Trip to the Moon by Georges Méliès (1902) at 6:15 of 12:46; the HoldQ sign with its ring half full, dark appearance](docs/scene.webp)
 
@@ -94,7 +92,6 @@ brew uninstall --zap holdq
 - Requires: Apple silicon, macOS 13 or later.
 - Permissions: none. Network: only the update check.
 - Signed with a Developer ID and notarized by Apple.
-- Interface: English, Ukrainian, Russian, from the language of macOS.
 - Code: Swift with AppKit, about 500 lines, and the Sparkle framework for updates.
 - License: MIT. Sparkle is MIT too; its license comes with the app and is in `THIRD-PARTY-LICENSES.md`.
 
