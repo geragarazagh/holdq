@@ -289,9 +289,7 @@ private var onKey: ((Bool) -> Void)?
 startInBackgroundIfAtLogin()
 
 let args = CommandLine.arguments
-if args.count > 1, args[1] == "--keycode" {
-    print(quitKeyCode()); exit(0)
-}
+_ = MainActor.assumeIsolated { runHoldQCLI(args) }
 
 MainActor.assumeIsolated {
     let app = NSApplication.shared
